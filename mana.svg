@@ -26,96 +26,100 @@
 
 	<g id="boy" class="character">
 		<image class="display" width="16" height="32"/>
-		<g class="east">
-			<image class="stand" width="16" height="32" xlink:href="sprites/Boy_stand_east001.gif"/>
-			<g class="move">
-				<image class="frame1" width="16" height="32" xlink:href="sprites/Boy_walk_east001.gif"/>
-				<image class="frame2" width="16" height="32" xlink:href="sprites/Boy_walk_east002.gif"/>
-				<image class="frame3" width="16" height="32" xlink:href="sprites/Boy_walk_east003.gif"/>
-				<image class="frame4" width="16" height="32" xlink:href="sprites/Boy_walk_east004.gif"/>
-				<image class="frame5" width="16" height="32" xlink:href="sprites/Boy_walk_east005.gif"/>
-				<image class="frame6" width="16" height="32" xlink:href="sprites/Boy_walk_east006.gif"/>
+		<g class="frames">
+			<g class="east">
+				<image class="stand" width="16" height="32" xlink:href="sprites/Boy_stand_east001.gif"/>
+				<g class="move">
+					<image class="frame1" width="16" height="32" xlink:href="sprites/Boy_walk_east001.gif"/>
+					<image class="frame2" width="16" height="32" xlink:href="sprites/Boy_walk_east002.gif"/>
+					<image class="frame3" width="16" height="32" xlink:href="sprites/Boy_walk_east003.gif"/>
+					<image class="frame4" width="16" height="32" xlink:href="sprites/Boy_walk_east004.gif"/>
+					<image class="frame5" width="16" height="32" xlink:href="sprites/Boy_walk_east005.gif"/>
+					<image class="frame6" width="16" height="32" xlink:href="sprites/Boy_walk_east006.gif"/>
+				</g>
 			</g>
-		</g>
-		<g class="north">
-			<image class="stand" width="16" height="32" xlink:href="sprites/Boy_stand_north001.gif"/>
-			<g class="move">
-				<image class="frame1" width="16" height="32" xlink:href="sprites/Boy_walk_north001.gif"/>
-				<image class="frame2" width="16" height="32" xlink:href="sprites/Boy_walk_north002.gif"/>
-				<image class="frame3" width="16" height="32" xlink:href="sprites/Boy_walk_north003.gif"/>
-				<image class="frame4" width="16" height="32" xlink:href="sprites/Boy_walk_north004.gif"/>
-				<image class="frame5" width="16" height="32" xlink:href="sprites/Boy_walk_north005.gif"/>
-				<image class="frame6" width="16" height="32" xlink:href="sprites/Boy_walk_north006.gif"/>
+			<g class="north">
+				<image class="stand" width="16" height="32" xlink:href="sprites/Boy_stand_north001.gif"/>
+				<g class="move">
+					<image class="frame1" width="16" height="32" xlink:href="sprites/Boy_walk_north001.gif"/>
+					<image class="frame2" width="16" height="32" xlink:href="sprites/Boy_walk_north002.gif"/>
+					<image class="frame3" width="16" height="32" xlink:href="sprites/Boy_walk_north003.gif"/>
+					<image class="frame4" width="16" height="32" xlink:href="sprites/Boy_walk_north004.gif"/>
+					<image class="frame5" width="16" height="32" xlink:href="sprites/Boy_walk_north005.gif"/>
+					<image class="frame6" width="16" height="32" xlink:href="sprites/Boy_walk_north006.gif"/>
+				</g>
 			</g>
-		</g>
-		<g class="south">
-			<image class="stand" width="16" height="32" xlink:href="sprites/Boy_stand_south001.gif"/>
-			<g class="move">
-				<image class="frame1" width="16" height="32" xlink:href="sprites/Boy_walk_south001.gif"/>
-				<image class="frame2" width="16" height="32" xlink:href="sprites/Boy_walk_south002.gif"/>
-				<image class="frame3" width="16" height="32" xlink:href="sprites/Boy_walk_south003.gif"/>
-				<image class="frame4" width="16" height="32" xlink:href="sprites/Boy_walk_south004.gif"/>
-				<image class="frame5" width="16" height="32" xlink:href="sprites/Boy_walk_south005.gif"/>
-				<image class="frame6" width="16" height="32" xlink:href="sprites/Boy_walk_south006.gif"/>
+			<g class="south">
+				<image class="stand" width="16" height="32" xlink:href="sprites/Boy_stand_south001.gif"/>
+				<g class="move">
+					<image class="frame1" width="16" height="32" xlink:href="sprites/Boy_walk_south001.gif"/>
+					<image class="frame2" width="16" height="32" xlink:href="sprites/Boy_walk_south002.gif"/>
+					<image class="frame3" width="16" height="32" xlink:href="sprites/Boy_walk_south003.gif"/>
+					<image class="frame4" width="16" height="32" xlink:href="sprites/Boy_walk_south004.gif"/>
+					<image class="frame5" width="16" height="32" xlink:href="sprites/Boy_walk_south005.gif"/>
+					<image class="frame6" width="16" height="32" xlink:href="sprites/Boy_walk_south006.gif"/>
+				</g>
 			</g>
-		</g>
-		<g class="west">
-			<image class="stand" width="16" height="32" xlink:href="sprites/Boy_stand_west001.gif"/>
-			<g class="move">
-				<image class="frame1" width="16" height="32" xlink:href="sprites/Boy_walk_west001.gif"/>
-				<image class="frame2" width="16" height="32" xlink:href="sprites/Boy_walk_west002.gif"/>
-				<image class="frame3" width="16" height="32" xlink:href="sprites/Boy_walk_west003.gif"/>
-				<image class="frame4" width="16" height="32" xlink:href="sprites/Boy_walk_west004.gif"/>
-				<image class="frame5" width="16" height="32" xlink:href="sprites/Boy_walk_west005.gif"/>
-				<image class="frame6" width="16" height="32" xlink:href="sprites/Boy_walk_west006.gif"/>
+			<g class="west">
+				<image class="stand" width="16" height="32" xlink:href="sprites/Boy_stand_west001.gif"/>
+				<g class="move">
+					<image class="frame1" width="16" height="32" xlink:href="sprites/Boy_walk_west001.gif"/>
+					<image class="frame2" width="16" height="32" xlink:href="sprites/Boy_walk_west002.gif"/>
+					<image class="frame3" width="16" height="32" xlink:href="sprites/Boy_walk_west003.gif"/>
+					<image class="frame4" width="16" height="32" xlink:href="sprites/Boy_walk_west004.gif"/>
+					<image class="frame5" width="16" height="32" xlink:href="sprites/Boy_walk_west005.gif"/>
+					<image class="frame6" width="16" height="32" xlink:href="sprites/Boy_walk_west006.gif"/>
+				</g>
 			</g>
 		</g>
 	</g>
 
 	<g id="girl" class="character">
 		<image class="display" width="16" height="32" xlink:href="sprites/Girl_stand_north001.gif"/>
-		<g class="east">
-			<image class="stand" width="16" height="32" xlink:href="sprites/Girl_stand_east001.gif"/>
-			<g class="move">
-				<image class="frame1" width="16" height="32" xlink:href="sprites/Girl_walk_east001.gif"/>
-				<image class="frame2" width="16" height="32" xlink:href="sprites/Girl_walk_east002.gif"/>
-				<image class="frame3" width="16" height="32" xlink:href="sprites/Girl_walk_east003.gif"/>
-				<image class="frame4" width="16" height="32" xlink:href="sprites/Girl_walk_east004.gif"/>
-				<image class="frame5" width="16" height="32" xlink:href="sprites/Girl_walk_east005.gif"/>
-				<image class="frame6" width="16" height="32" xlink:href="sprites/Girl_walk_east006.gif"/>
+		<g class="frames">
+			<g class="east">
+				<image class="stand" width="16" height="32" xlink:href="sprites/Girl_stand_east001.gif"/>
+				<g class="move">
+					<image class="frame1" width="16" height="32" xlink:href="sprites/Girl_walk_east001.gif"/>
+					<image class="frame2" width="16" height="32" xlink:href="sprites/Girl_walk_east002.gif"/>
+					<image class="frame3" width="16" height="32" xlink:href="sprites/Girl_walk_east003.gif"/>
+					<image class="frame4" width="16" height="32" xlink:href="sprites/Girl_walk_east004.gif"/>
+					<image class="frame5" width="16" height="32" xlink:href="sprites/Girl_walk_east005.gif"/>
+					<image class="frame6" width="16" height="32" xlink:href="sprites/Girl_walk_east006.gif"/>
+				</g>
 			</g>
-		</g>
-		<g class="north">
-			<image class="stand" width="16" height="32" xlink:href="sprites/Girl_stand_north001.gif"/>
-			<g class="move">
-				<image class="frame1" width="16" height="32" xlink:href="sprites/Girl_walk_north001.gif"/>
-				<image class="frame2" width="16" height="32" xlink:href="sprites/Girl_walk_north002.gif"/>
-				<image class="frame3" width="16" height="32" xlink:href="sprites/Girl_walk_north003.gif"/>
-				<image class="frame4" width="16" height="32" xlink:href="sprites/Girl_walk_north004.gif"/>
-				<image class="frame5" width="16" height="32" xlink:href="sprites/Girl_walk_north005.gif"/>
-				<image class="frame6" width="16" height="32" xlink:href="sprites/Girl_walk_north006.gif"/>
+			<g class="north">
+				<image class="stand" width="16" height="32" xlink:href="sprites/Girl_stand_north001.gif"/>
+				<g class="move">
+					<image class="frame1" width="16" height="32" xlink:href="sprites/Girl_walk_north001.gif"/>
+					<image class="frame2" width="16" height="32" xlink:href="sprites/Girl_walk_north002.gif"/>
+					<image class="frame3" width="16" height="32" xlink:href="sprites/Girl_walk_north003.gif"/>
+					<image class="frame4" width="16" height="32" xlink:href="sprites/Girl_walk_north004.gif"/>
+					<image class="frame5" width="16" height="32" xlink:href="sprites/Girl_walk_north005.gif"/>
+					<image class="frame6" width="16" height="32" xlink:href="sprites/Girl_walk_north006.gif"/>
+				</g>
 			</g>
-		</g>
-		<g class="south">
-			<image class="stand" width="16" height="32" xlink:href="sprites/Girl_stand_south001.gif"/>
-			<g class="move">
-				<image class="frame1" width="16" height="32" xlink:href="sprites/Girl_walk_south001.gif"/>
-				<image class="frame2" width="16" height="32" xlink:href="sprites/Girl_walk_south002.gif"/>
-				<image class="frame3" width="16" height="32" xlink:href="sprites/Girl_walk_south003.gif"/>
-				<image class="frame4" width="16" height="32" xlink:href="sprites/Girl_walk_south004.gif"/>
-				<image class="frame5" width="16" height="32" xlink:href="sprites/Girl_walk_south005.gif"/>
-				<image class="frame6" width="16" height="32" xlink:href="sprites/Girl_walk_south006.gif"/>
+			<g class="south">
+				<image class="stand" width="16" height="32" xlink:href="sprites/Girl_stand_south001.gif"/>
+				<g class="move">
+					<image class="frame1" width="16" height="32" xlink:href="sprites/Girl_walk_south001.gif"/>
+					<image class="frame2" width="16" height="32" xlink:href="sprites/Girl_walk_south002.gif"/>
+					<image class="frame3" width="16" height="32" xlink:href="sprites/Girl_walk_south003.gif"/>
+					<image class="frame4" width="16" height="32" xlink:href="sprites/Girl_walk_south004.gif"/>
+					<image class="frame5" width="16" height="32" xlink:href="sprites/Girl_walk_south005.gif"/>
+					<image class="frame6" width="16" height="32" xlink:href="sprites/Girl_walk_south006.gif"/>
+				</g>
 			</g>
-		</g>
-		<g class="west">
-			<image class="stand" width="16" height="32" xlink:href="sprites/Girl_stand_west001.gif"/>
-			<g class="move">
-				<image class="frame1" width="16" height="32" xlink:href="sprites/Girl_walk_west001.gif"/>
-				<image class="frame2" width="16" height="32" xlink:href="sprites/Girl_walk_west002.gif"/>
-				<image class="frame3" width="16" height="32" xlink:href="sprites/Girl_walk_west003.gif"/>
-				<image class="frame4" width="16" height="32" xlink:href="sprites/Girl_walk_west004.gif"/>
-				<image class="frame5" width="16" height="32" xlink:href="sprites/Girl_walk_west005.gif"/>
-				<image class="frame6" width="16" height="32" xlink:href="sprites/Girl_walk_west006.gif"/>
+			<g class="west">
+				<image class="stand" width="16" height="32" xlink:href="sprites/Girl_stand_west001.gif"/>
+				<g class="move">
+					<image class="frame1" width="16" height="32" xlink:href="sprites/Girl_walk_west001.gif"/>
+					<image class="frame2" width="16" height="32" xlink:href="sprites/Girl_walk_west002.gif"/>
+					<image class="frame3" width="16" height="32" xlink:href="sprites/Girl_walk_west003.gif"/>
+					<image class="frame4" width="16" height="32" xlink:href="sprites/Girl_walk_west004.gif"/>
+					<image class="frame5" width="16" height="32" xlink:href="sprites/Girl_walk_west005.gif"/>
+					<image class="frame6" width="16" height="32" xlink:href="sprites/Girl_walk_west006.gif"/>
+				</g>
 			</g>
 		</g>
 	</g>
