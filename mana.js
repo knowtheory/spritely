@@ -11,29 +11,46 @@ function Character(char_param){
 	// verify that the character g has subgraphs for north, east, south, and west.
 
 	this.spriteFrames = character.children('g.frames')
+	this.spriteFrames.attr('visibility','hidden')
 
 	// verify that there's a display frame.  set it to a private var
 	this.displayFrame = $(character).children('image.display');
 
-	// attribute getters and setters
+	// attribute proxies into the display frame
 	this.x      = SetX
 	this.y      = SetY
 	this.width  = SetWidth
 	this.height = SetHeight
 	
+	// mov
 	this.face = this.stop = Stop
-	
+
+	this.x($('svg').attr('width')/2);
+	this.y($('svg').attr('height')/2);
 	// set the display to the Standing South image
-	this.face("south")
-	
+	this.face("south");
 }
-	function SetX(position){}
-	function SetY(position){}
-	function SetWidth(position){}
-	function SetHeight(position){}
+	function SetX(position){
+		if (typeof position == "number" ){
+			this.displayFrame.attr('x',position);
+		} else if (position != null){ throw new Error("position must be a number")}
+		return this.displayFrame.attr('x')
+	}
+	function SetY(position){
+		if (typeof position == "number"){
+			this.displayFrame.attr('y',position);
+		} else if (position != null){ throw new Error("position must be a number")}
+		return this.displayFrame.attr('y')
+	}
+	function SetWidth(position){
+		
+	}
+	function SetHeight(position){
+		
+	}
 
 	function Stop(direction){
-		this.spriteFrames.children(direction).children('stand')
+		this.displayFrame.attr('xlink:href', this.spriteFrames.children("."+direction).children('.stand').attr('xlink:href'))
 	}
 
 	function Move(direction){
@@ -64,10 +81,5 @@ function initMana() {
 	controller = Controller({"east":100,"north":119,"south":115,"west":97})
 	$('.character').each(function(){
 		window[$(this).attr('id')] = new Character(this)
-		//alert($(this).index());
-		var display = $(this).children('.display');
-		display.attr('xlink:href',$(this).children('.south').children('.stand').attr('xlink:href'))
-		display.attr('x',$('svg').attr('width')/2);
-		display.attr('y',$('svg').attr('height')/2);
 	});	
 }
