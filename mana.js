@@ -23,7 +23,8 @@ function Character(char_param){
 	this.height = SetHeight
 	
 	// mov
-	this.face = this.stop = Stop
+	this.stop = this.face = Stop
+	this.move = Move
 
 	this.x($('svg').attr('width')/2);
 	this.y($('svg').attr('height')/2);
@@ -53,7 +54,8 @@ function Character(char_param){
 		this.displayFrame.attr('xlink:href', this.spriteFrames.children("."+direction).children('.stand').attr('xlink:href'))
 	}
 
-	function Move(direction){
+	function Move(direction, speed){
+		
 	}
 
 function Controller(key_hash){
